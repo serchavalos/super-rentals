@@ -12,8 +12,8 @@
   "scripts": {
     "build": "ember build",
     "start": "ember server",
-    "test": "ember test",
-    "codecov": "COVERAGE=true ember test && codecov --token=844e3211-634b-4d29-85e9-4e5c6414bd7e"
+    "coverage": "COVERAGE=true ember test",
+    "push-report": "node_modules/.bin/codecov --token=844e3211-634b-4d29-85e9-4e5c6414bd7e"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
@@ -39,7 +39,8 @@
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.14.1",
     "ember-welcome-page": "^3.0.0",
-    "loader.js": "^4.2.3"
+    "loader.js": "^4.2.3",
+    "codecov": "*"
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"

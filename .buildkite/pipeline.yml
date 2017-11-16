@@ -1,3 +1,6 @@
 steps:
-  - label: Example Test
-    command: echo "Hello!"
+  - label: ':hammer: Run Tests'
+    command: npm run coverage
+
+  - label: ':chart_with_upwards_trend: Publish Coverage Report'
+    command: npm run push-report
