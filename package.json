@@ -12,7 +12,8 @@
   "scripts": {
     "build": "ember build",
     "start": "ember server",
-    "test": "ember test"
+    "test": "ember test",
+    "codecov": "COVERAGE=true ember test && codecov --token=844e3211-634b-4d29-85e9-4e5c6414bd7e"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
