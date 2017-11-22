@@ -1,5 +1,7 @@
 # super-rentals
 
+[![Build status](https://badge.buildkite.com/14a1d34e854d84ea35e4d822f2a99462acd48f62907465c4bb.svg)](https://buildkite.com/serchavalos/super-rentals-coverage-report)
+
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
