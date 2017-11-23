@@ -1,6 +1,6 @@
 steps:
   - label: ':hammer: Run Tests'
-    command: npm run coverage
+    command: sh ./buildkite/run-tests.sh
 
   - label: ':chart_with_upwards_trend: Publish Coverage Report'
-    command: npm run push-report
+    command: sh ./buildkite/send-coverage-report.sh
