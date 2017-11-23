@@ -1,0 +1,6 @@
+steps:
+  - label: ':hammer: Run Tests'
+    command: sh ./.buildkite/run-tests.sh
+
+  - label: ':chart_with_upwards_trend: Publish Coverage Report'
+    command: sh ./.buildkite/send-coverage-report.sh
